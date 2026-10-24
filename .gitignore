@@ -17,3 +17,5 @@ check.py
 .DS_Store
 .idea/
 *.log
+
+.timetracker
