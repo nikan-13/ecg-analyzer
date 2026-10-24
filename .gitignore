@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Данные и веса — слишком крупные для git
+data/raw/*
+data/processed/*
+models/*.pth
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Системное
+check.py
+.DS_Store
+.idea/
+*.log
