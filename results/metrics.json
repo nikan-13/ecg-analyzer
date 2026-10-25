@@ -1,0 +1,23 @@
+{
+  "test_fold": [
+    10
+  ],
+  "num_test_records": 2203,
+  "threshold": 0.5,
+  "auc_per_class": {
+    "NORM": 0.9409,
+    "MI": 0.9295,
+    "STTC": 0.9257,
+    "CD": 0.9178,
+    "HYP": 0.8332
+  },
+  "f1_per_class": {
+    "NORM": 0.8526,
+    "MI": 0.7237,
+    "STTC": 0.7481,
+    "CD": 0.7397,
+    "HYP": 0.4415
+  },
+  "macro_auc": 0.9094,
+  "macro_f1": 0.7011
+}

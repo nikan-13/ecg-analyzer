@@ -1,0 +1,16 @@
+{
+  "architecture": "EcgResNet1D",
+  "num_parameters": 415045,
+  "classes": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "val_auc": 0.901,
+  "epochs_trained": 2,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "seed": 42
+}

@@ -16,8 +16,8 @@ import numpy as np
 import yaml
 from scipy.signal import butter, filtfilt
 
-CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.yaml"
-
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CONFIG_PATH = PROJECT_ROOT / "config.yaml"
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
     """Загружает настройки проекта из config.yaml."""
