@@ -1,0 +1,37 @@
+{
+  "demo_00001.csv": {
+    "ecg_id": 1,
+    "labels": {
+      "NORM": 1
+    },
+    "fold": 3
+  },
+  "demo_00008.csv": {
+    "ecg_id": 8,
+    "labels": {
+      "MI": 1
+    },
+    "fold": 9
+  },
+  "demo_00022.csv": {
+    "ecg_id": 22,
+    "labels": {
+      "STTC": 1
+    },
+    "fold": 4
+  },
+  "demo_00032.csv": {
+    "ecg_id": 32,
+    "labels": {
+      "CD": 1
+    },
+    "fold": 1
+  },
+  "demo_00030.csv": {
+    "ecg_id": 30,
+    "labels": {
+      "HYP": 1
+    },
+    "fold": 9
+  }
+}
